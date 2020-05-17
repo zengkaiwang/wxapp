@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="54px" viewBox="0 0 36 54" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 56.2 (81672) - https://sketch.com -->
+    <title>Pin / Mall tap3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M27.7960937,33.1034012 L19.4142136,41.4852814 C18.633165,42.26633 17.366835,42.26633 16.5857864,41.4852814 L8.20390628,33.1034012 C3.26575723,29.8939362 7.74999033e-16,24.3283474 0,18 C-1.21743675e-15,8.0588745 8.0588745,1.82615513e-15 18,0 C27.9411255,-1.82615513e-15 36,8.0588745 36,18 C36,24.3283474 32.7342428,29.8939362 27.7960937,33.1034012 Z" id="path-1"></path>
+        <filter x="-33.3%" y="-28.5%" width="166.7%" height="157.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.0392156863   0 0 0 0 0.141176471   0 0 0 0 0.388235294  0 0 0 0.24 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter2"></feOffset>
+            <feGaussianBlur stdDeviation="4" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.0392156863   0 0 0 0 0.141176471   0 0 0 0 0.388235294  0 0 0 0.08 0" type="matrix" in="shadowBlurOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Pin-/-Mall-tap3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="pin-/-mall" fill-rule="nonzero">
+            <g id="container">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use fill="#1A1E2B" xlink:href="#path-1"></use>
+            </g>
+            <circle id="indicactor" fill="#F8FAFF" cx="18" cy="18" r="11"></circle>
+        </g>
+    </g>
+</svg>
