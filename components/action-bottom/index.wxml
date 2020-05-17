@@ -1,0 +1,16 @@
+<!-- <view class="main-container">
+	<view bindtap="close" class="mask {{close?'fade-out':'fade-in'}}"></view> -->
+	<view animation="{{animationData}}" class="container {{close?'slide-down':'slide-up'}}">
+		<view class="title">
+			<view class="content">
+				<view>{{title}}</view>
+			</view>
+			<image bindtap="close" class="img" src="/assets/img/icon-remove@3x.png"></image>
+		</view>
+		<scroll-view scroll-y="true" class="container" bindscrolltolower="loadMore">
+			<view class="content">
+				<slot name="content"></slot>
+			</view>
+		</scroll-view>
+	</view>
+<!-- </view> -->
