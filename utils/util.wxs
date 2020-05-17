@@ -1,0 +1,16 @@
+var fileSize = function (size) {
+  if(!size) {
+    return ''
+  }
+  if (size > 1 << 30) {
+    return Math.floor(size * 10 / (1 << 30)) / 10 + 'G'
+  } else if (size > 1 << 20) {
+    return Math.floor(size * 10 / (1 << 20)) / 10 + 'M'
+  } else if (size > 1 << 10) {
+    return Math.floor(size * 10 / (1 << 10)) / 10 + 'k'
+  } else {
+    return size + 'b'
+  }
+}
+
+module.exports.fileSize = fileSize;
